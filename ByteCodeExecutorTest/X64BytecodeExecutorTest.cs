@@ -23,7 +23,7 @@ namespace X64BytecodeExecutorTest
         {
             byte[] x64BytecodeReturn1 =
             {
-                0x48, 0xC7, 0xC0, 0x01, 0x00, 0x00, 0x00, //mov rax,0x0
+                0x48, 0xC7, 0xC0, 0x01, 0x00, 0x00, 0x00, //mov rax,0x1
                 0xc3 // ret
             };
             var result = _executor.Execute(x64BytecodeReturn1);
